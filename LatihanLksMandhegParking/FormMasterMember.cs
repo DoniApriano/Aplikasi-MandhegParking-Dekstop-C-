@@ -192,15 +192,15 @@ namespace LatihanLksMandhegParking
 
                 if (dataGridView1.Rows[e.RowIndex].Cells["membership_id"].FormattedValue.ToString() == "Non Member")
                 {
-                    comboBox1.Items.Add("Non Member");
+                    comboBox1.SelectedIndex = 0;
                 }
                 else if (dataGridView1.Rows[e.RowIndex].Cells["membership_id"].FormattedValue.ToString() == "Regular")
                 {
-                    comboBox1.Items.Add("Regular");
+                    comboBox1.SelectedIndex = 1;
                 }
                 else if (dataGridView1.Rows[e.RowIndex].Cells["membership_id"].FormattedValue.ToString() == "VIP")
                 {
-                    comboBox1.Items.Add("VIP");
+                    comboBox1.SelectedIndex = 2;
                 }
 
                 textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells["email"].FormattedValue.ToString();

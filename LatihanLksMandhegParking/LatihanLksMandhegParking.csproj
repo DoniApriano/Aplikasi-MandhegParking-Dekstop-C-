@@ -65,6 +65,12 @@
     <Compile Include="FormMasterVehicle.Designer.cs">
       <DependentUpon>FormMasterVehicle.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormParkingPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormParkingPayment.Designer.cs">
+      <DependentUpon>FormParkingPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormUtama.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMasterVehicle.resx">
       <DependentUpon>FormMasterVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormParkingPayment.resx">
+      <DependentUpon>FormParkingPayment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUtama.resx">
       <DependentUpon>FormUtama.cs</DependentUpon>

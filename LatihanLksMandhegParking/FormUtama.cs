@@ -46,5 +46,12 @@ namespace LatihanLksMandhegParking
             this.Hide();
             frmMasterVehicle.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormParkingPayment formParkingPayment = new FormParkingPayment();
+            this.Hide();
+            formParkingPayment.Show();
+        }
     }
 }
